@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 70px;
+    border-bottom: 2px solid #a41e1e;
+}
+
+.header-logo{
+   height: 60px;
+   width: 60px;
+   
+}
+.header-buttons{
+    padding-left: 50px;
+    padding-top: 10px;
+    display: flex;
+   
+}
+.Home-button{
+    height: 30px;
+    width: 100px;
+    background-color: #a41e1e;
+    color: #ffffff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+    box-shadow: none;
+    position: relative; /* Add position: relative for the lifting effect */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transition for box-shadow and transform */
+  }
+  
+  .Home-button:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px); /* Lift up effect */
+  }
+  
+.Login-button{
+    height: 30px;
+    width: 100px;
+    background-color: #69C28C;
+    color: #ffffff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 500px;
+}
+.cart-image-header{
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+}
+.cart-number{
+    font-weight: bold;
+    margin: auto;
+    color:#a41e1e;
+}
