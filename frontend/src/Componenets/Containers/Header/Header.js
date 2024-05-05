@@ -17,7 +17,15 @@ const Header = ({ size }) => {
         navigate('/about');
     }
     const NavigateToPizzas = () => {
-        navigate('/promotions');
+        navigate('/pizzas');
+    }
+
+    const NavigateToDrinks = () => {
+        navigate('/drinks');
+    }
+
+    const NavigateToDessert = () => {
+        navigate('/desserts')
     }
 
     const NavigateToLogin = () => {
@@ -34,6 +42,8 @@ const Header = ({ size }) => {
                 <button className='Home-button' onClick={NavigateToMenu}>Menu</button>
                 <button className='Home-button' onClick={NavigateToAbout}>About</button>
                 <button className='Home-button' onClick={NavigateToPizzas}>Pizzas</button>
+                <button className='Home-button' onClick={NavigateToDrinks}>Drinks</button>
+                <button className='Home-button' onClick={NavigateToDessert}>Desserts</button>
                 
 
 

@@ -1,0 +1,32 @@
+/* Pizzas.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1470px;
+    height: 900px;
+    margin-top: 20px;
+  }
+  
+  .box-item1, .box-item2, .box-item3, .box-item4, .box-item5 , .box-item6{
+    height: 400px;
+    width: 200px; /* 20% width for each box with 10px margin between them */
+    background-color:#A41E1E;
+    margin: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pizzaimg{
+    width: 200px;
+    height: 200px;
+  }
+  
