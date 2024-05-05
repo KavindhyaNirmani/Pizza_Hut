@@ -23,10 +23,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 25px;
   }
 
   .pizzaimg{
     width: 200px;
     height: 200px;
+    margin-bottom: 200px;
+    
   }
   
