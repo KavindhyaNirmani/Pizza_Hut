@@ -17,11 +17,11 @@ const Header = ({ size }) => {
         navigate('/about');
     }
     const NavigateToPizzas = () => {
-        navigate('/pizzas');
+        navigate('/pizza');
     }
 
     const NavigateToDrinks = () => {
-        navigate('/drinks');
+        navigate('/drink');
     }
 
     const NavigateToDessert = () => {

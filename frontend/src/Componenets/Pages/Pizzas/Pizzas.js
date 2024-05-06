@@ -11,7 +11,7 @@ const Pizzas = () => {
   return (
     <div className="home-container">
       <Header size={0} />
-      <div className='box'>
+      <div className='pizzasbox'>
         {/* 5 boxes in the first row */}
         <div className='box-item1'><img src={Pizza1} className='pizzaimg' alt=''/> </div>
         <div className='box-item2'><img src={Pizza2} className='pizzaimg' alt=''/></div>
