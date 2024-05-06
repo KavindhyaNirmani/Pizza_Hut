@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from '../../Containers/Header/Header';
 import './Desserts.css';
+import DessertCard from '../../../Componenets/Containers/Card/Card';
+import List from '../../../Data/DessertData';
 
 
 const Desserts = () => {
@@ -8,10 +10,10 @@ const Desserts = () => {
     <div className="dessert-container">
       <Header size={0} />
       <div className='desertsbox'>
-        <div className='box-item1'></div>
-        <div className='box-item2'></div>
-        <div className='box-item3'></div>
-        <div className='box-item4'></div>
+      {List.map((item) => (
+      <DessertCard item={item} />
+    ))}
+
       </div>
     </div>
   )

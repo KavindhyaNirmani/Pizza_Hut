@@ -25,7 +25,7 @@ const Header = ({ size }) => {
     }
 
     const NavigateToDessert = () => {
-        navigate('/desserts')
+        navigate('/dessert')
     }
 
     const NavigateToLogin = () => {
