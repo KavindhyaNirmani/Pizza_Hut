@@ -10,8 +10,8 @@ const Header = ({ size }) => {
     const NavigateToHome = () => {
         navigate('/home');
     }
-    const NavigateToMenu = () => {
-        navigate('/menu');
+    const NavigateToPromotion = () => {
+        navigate('/promotion');
     }
     const NavigateToAbout = () => {
         navigate('/about');
@@ -39,11 +39,11 @@ const Header = ({ size }) => {
             </div>
             <div className='header-buttons'>
                 <button className='Home-button' onClick={NavigateToHome}>Home</button>
-                <button className='Home-button' onClick={NavigateToMenu}>Menu</button>
-                <button className='Home-button' onClick={NavigateToAbout}>About</button>
+                <button className='Home-button' onClick={NavigateToPromotion}>Promotion</button>
                 <button className='Home-button' onClick={NavigateToPizzas}>Pizzas</button>
                 <button className='Home-button' onClick={NavigateToDrinks}>Drinks</button>
                 <button className='Home-button' onClick={NavigateToDessert}>Desserts</button>
+                <button className='Home-button' onClick={NavigateToAbout}>About</button>
                 
 
 
