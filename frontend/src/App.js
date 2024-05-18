@@ -7,6 +7,7 @@ import Pizzas from './Componenets/Pages/Pizzas/Pizzas';
 import Desserts from './Componenets/Pages/Desserts/Desserts';
 import Drinks from './Componenets/Pages/Drinks/Drinks';
 import Header from './Componenets/Containers/Header/Header';
+import Footer from './Componenets/Containers/Footer/Footer';
 
 export default function App(){
   return (
@@ -15,6 +16,7 @@ export default function App(){
       <Route path='/'  element = {<Home/>} />
       <Route path='/home'  element = {<Home/>} />
       <Route path='/header' element = {<Header/>} />
+      <Route path='/footer'  element = {<Footer/>} />
       <Route path='/about'  element = {<About/>} />
       <Route path='/menu'  element = {<Menu/>} />
       <Route path='/pizza'  element = {<Pizzas/>} />
